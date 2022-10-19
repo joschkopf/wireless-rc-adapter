@@ -7,6 +7,10 @@
  * http://github.com/sblaksono
  */
  
+#include <Arduino.h>
+#include "defines.hpp"
+#include "globals.hpp"
+
 #if defined(PPM_RECEIVER)
   #include <avr/interrupt.h>
 

@@ -1,3 +1,7 @@
+#include <Arduino.h>
+#include "defines.hpp"
+#include "globals.hpp"
+
 #if defined(SERIAL_DEBUG)
 
   #if !defined(SERIAL_SPD)

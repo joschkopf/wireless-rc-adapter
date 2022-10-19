@@ -1,4 +1,6 @@
 #include <EEPROM.h>
+#include "defines.hpp"
+#include "globals.hpp"
 
 void readMem() {
   uint8_t high, low;

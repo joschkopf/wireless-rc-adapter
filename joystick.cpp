@@ -1,7 +1,9 @@
+#include "defines.hpp"
+
 #if !defined(SERIAL_DEBUG)
   #include "src/ArduinoJoystickLibrary/Joystick.h"
   
-  // ToDo - this nightmare which begins here ^^ \\
+  // ToDo - this nightmare which begins here ^^ 
 
   #define HID_REPORT_ID 0x03  // Indicates the joystick's HID report ID. This value must be unique
                               // if you are creating multiple instances of Joystick. Do not use 

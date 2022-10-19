@@ -1,3 +1,13 @@
+#include <Arduino.h>
+#include "defines.hpp"
+#include "globals.hpp"
+#include "led.hpp"
+#include "memory.hpp"
+
+bool checkIfCal();
+#if defined(SERIAL_DEBUG)
+  void calPrintValues();
+#endif
 
 // ToDo - replace compare values with STICK_CENTER THRESHOLD ETC
 

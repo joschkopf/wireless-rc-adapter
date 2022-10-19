@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 bool led_mode = false;
 uint32_t led_timer = 0;
 
