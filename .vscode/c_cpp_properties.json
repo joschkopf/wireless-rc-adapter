@@ -1,0 +1,60 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/joschi/Documents/PlatformIO/Projects/wireless-rc-adapter/include",
+                "/Users/joschi/Documents/PlatformIO/Projects/wireless-rc-adapter/src",
+                "/Users/joschi/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/joschi/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/joschi/.platformio/packages/framework-arduino-avr/variants/micro",
+                "/Users/joschi/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/joschi/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/joschi/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/joschi/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/joschi/Documents/PlatformIO/Projects/wireless-rc-adapter/include",
+                    "/Users/joschi/Documents/PlatformIO/Projects/wireless-rc-adapter/src",
+                    "/Users/joschi/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/joschi/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/joschi/.platformio/packages/framework-arduino-avr/variants/micro",
+                    "/Users/joschi/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/joschi/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/joschi/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/joschi/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "ARDUINO_AVR_MICRO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "USB_VID=0x2341",
+                "USB_PID=0x8037",
+                "USB_PRODUCT=\"Arduino Micro\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                "__AVR_ATmega32U4__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/Users/joschi/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega32u4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
