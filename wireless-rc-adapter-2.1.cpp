@@ -16,6 +16,7 @@
 #include "serial.hpp"
 #include "ppm.hpp"
 #include "calibration.hpp"
+#include "joystick.hpp"
 
 // Global variables
 const uint8_t FLAGS[8] = {1, 2, 4, 8, 16, 32, 64, 128};  // Channel value position flags

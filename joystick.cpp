@@ -2,6 +2,7 @@
 
 #if !defined(SERIAL_DEBUG)
   #include "src/ArduinoJoystickLibrary/Joystick.h"
+  #include "globals.hpp"
   
   // ToDo - this nightmare which begins here ^^ 
 
